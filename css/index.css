@@ -2,7 +2,7 @@
 
 .first-view {
   height: calc(100vh - 110px);
-  background-image: url(../images/index/bg-main.jpg);
+  background-image: url(../images/index/20210223_144355_692.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -136,7 +136,7 @@
 @media (max-width: 800px) {
   .first-view {
     height: calc(100vh - 50px);
-    background-image: url(../images/index/bg-main-sp.jpg);
+    background-image: url(../images/index/20210223_144355_692.jpg);
     align-items: flex-start;
   }
 
