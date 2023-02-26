@@ -41,12 +41,12 @@
   <main class="main">
     <div class="first-view">
       <div class="first-view-text">
-        <h1>App Dev<br>MIR</h1>
-        <p>コーヒーを待つ時間も、特別なひとときになる。</p>
+        <h1>松井のポートフォリオ</h1>
+        <p>愛知工業大学 情報科学部 情報科学科 コンピュータシステム専攻　松井礼人</p>
       </div>
     </div>
     <div class="lead">
-      <p>「想像力はあなたをどこにでも連れて行ってくれる」<br>注文を待つ間に広げた、一冊の本の中に見つけたことば。<br>ゆったり流れる時間の中で、想像をふくらませる楽しさを思い出す。<br>そんな時間を過ごすとき、おいしいコーヒーがあるとうれしい。</p>
+      <p>以下の章立てにて制作しております。</p>
       <div class="link-button-area">
         <a class="link-button" href="./concept.html">CONCEPT</a>
       </div>
@@ -55,11 +55,21 @@
       <h2>制作物一覧</h2>
       <ul class="item-list">
         <li>
+          <img src="./images/index/img-item01.jpg" alt="カフェラテの商品画像">
+          <dl>
+            <dt>WAV2MIDIシステム</dt>
+            <dd>歌を録音してメトロノームの周期を設定するだけでMIDI(楽譜)データが生成できるシステムです。私のように楽器の技能も無く、音感が無い者でも、これを使えばDTMをすることができ、大きなライフハックとなります。これは愛知工業大学の音メディア情報処理研究室にも成果として提出し、研究室配属にて推薦を獲得できました。</dd>
+            <dd><a href="https://github.com/O01o/Hanauta", style="color: blue;">Github Source</a></dd>
+          </dl>
+          <p class="price">Python, Kivy</p>
+        </li>
+        <li>
           <img src="./images/index/img-item05.jpg" alt="ホットドッグ - チリの商品画像">
           <dl>
             <dt>計算タイムアタックアプリ</dt>
-            <dd>モバイルアプリで学習支援アプリを制作しました。演習画面とスコア画面を用意しており、問題の正答率と経過時間を観測します。Rivverpodでソフトウェアを制御しています。</dd>
-            <dd><a href="">Github Source</a></dd>
+            <dd>学校課題にて制作しました。モバイルアプリによる学習支援サービスです。演習画面とスコア画面を用意しており、問題の正答率と経過時間を観測します。作業ログと動作確認している動画は、Scrapboxにて確認することができます。二人組のチームで開発し、私はシステムを、相方にはアセット画像の制作を担当して貰いました。</dd>
+            <dd><a href="">Working Log and Demo Movie</a></dd>
+            <dd><a href="https://github.com/O01o/flutter_calc_time_attack", style="color: blue;">Github Source</a></dd>
           </dl>
           <p class="price">Dart, Flutter</p>
         </li>
@@ -67,23 +77,16 @@
           <img src="./images/index/img-item02.jpg" alt="レーズンバターサンドの商品画像">
           <dl>
             <dt>SNOWライク顔変形</dt>
-            <dd>コーヒーに合うお菓子を追求して生まれた当店の大人気メニュー。数量・季節ともに限定のため、見つけたらぜひお試しを。</dd>
+            <dd>学校課題で制作しました。Dlibと呼ばれる顔認識AIを活用して検出された頬や顎の座標を取得し、ガウス関数をかけてピクセル座標を移動させることで、SNOWの顔加工に近しい機能を実現しました。</dd>
           </dl>
-          <p class="price">PySimpleGUI</p>
-        </li>
-        <li>
-          <img src="./images/index/img-item01.jpg" alt="カフェラテの商品画像">
-          <dl>
-            <dt>WAV2MIDIシステム</dt>
-            <dd></dd>
-          </dl>
-          <p class="price">Python, Kivy</p>
+          <p class="price">Python, PySimpleGUI</p>
         </li>
         <li>
           <img src="./images/index/img-item03.jpg" alt="アメリカーノの商品画像">
           <dl>
             <dt>音ゲーシミュレータ</dt>
-            <dd>浅煎りの豆をこだわりの配合でブレンドした、スッキリと爽やかな飲み口の当店看板メニュー。ホットでもアイスでも。</dd>
+            <dd>学校課題にて制作しました。選曲画面とプレイ画面、スコア表示画面とあり、SQLiteにてランキングを保存しております。6人組のチームで分散開発をしたプロジェクトとなります。</dd>
+            <dd></dd>
           </dl>
           <p class="price">Python, Kivy</p>
         </li>
@@ -91,7 +94,9 @@
           <img src="./images/index/img-item04.jpg" alt="レモネードの商品画像">
           <dl>
             <dt>多角形内外判定シミュレータ</dt>
-            <dd>瀬戸内海に浮かぶ小島で、オーナー自らが栽培したとっておきのレモンを、たっぷりと使った自慢のレモネードです。</dd>
+            <dd>『くりきん ナノアイランドストーリー (Nintendo DS)』と呼ばれるゲームの戦闘システムを再現したものであり、WindingNumberAlgorithmと呼ばれるもので粒子群の閉曲線(多角形)の内外を判定し、その中にいる粒子群のみを操作します。動作内容はTwitterにて動画で公開し、これにも多くの賛同を受けました。</dd>
+            <dd><a href="https://twitter.com/Acecitron/status/1529084328843833344", style="color: blue;">Twitter Demo Movie</a></dd>
+            <dd><a href="https://github.com/O01o/pyglet_kurikin", style="color: blue;">Github Source</a></dd>
           </dl>
           <p class="price">Python, Pyglet</p>
         </li>
@@ -99,9 +104,18 @@
           <img src="./images/index/img-item05.jpg" alt="ホットドッグ - チリの商品画像">
           <dl>
             <dt>簡易漫画サイト</dt>
-            <dd>簡単な漫画サイトを作成しました。投稿画面, 投稿作品一覧画面, 作品閲覧画面とあり、</dd>
+            <dd>学校課題にて制作しました。投稿画面, 投稿作品一覧画面, 作品閲覧画面とあり、詳細は</dd>
           </dl>
-          <p class="price">PHP, Laravel/ui, MariaDB</p>
+          <p class="price">LAMP, Laravel/ui</p>
+        </li>
+        <li>
+          <img src="./images/index/img-item03.jpg" alt="アメリカーノの商品画像">
+          <dl>
+            <dt>ぐにゃぐにゃエフェクト</dt>
+            <dd>『NEEDY GIRL OVERDOSE (Steam Game)』の「Rainbow Girl」エンドにて使用されている虹色のエフェクトを見て、そこに数学(幾何学)的な法則を見出し、それをヒントにPerlin Noiseを発見しました。実装内容はTwitterに公開しています。実際には恐らくこれとは違う勾配関数が使われていることが窺えますが、ゲームから数式を発見した意味で非常良い体験をしました。</dd>
+            <dd><a href="https://twitter.com/Acecitron/status/1565587242864689152", style="color: blue;">Twitter Demo Image and Source Code</a></dd>
+          </dl>
+          <p class="price">Python, Kivy</p>
         </li>
       </ul>
 
