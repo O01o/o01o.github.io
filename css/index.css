@@ -133,6 +133,11 @@
   margin-top: 15px;
 }
 
+.icon {
+  width: 45px;
+  height: 45px;
+}
+
 @media (max-width: 800px) {
   .first-view {
     height: calc(100vh - 50px);
