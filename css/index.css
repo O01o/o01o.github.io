@@ -28,7 +28,7 @@
   padding-bottom: 80px;
   color: #ffffff;
   font-weight: bold;
-  text-shadow: 0px 0px 3px black;
+  text-shadow: 0px 0px 5px black;
 }
 
 .first-view-text h1 {
@@ -50,6 +50,10 @@
 .lead p {
   line-height: 2;
   text-align: center;
+}
+
+.lead li{
+  margin: 20px;
 }
 
 .link-button-area {
