@@ -58,6 +58,15 @@
           <p class="price">Python, Kivy</p>
         </li>
         <li>
+          <img src="./images/index/flutter_hanauta.png" alt="ホットドッグ - チリの商品画像">
+          <dl>
+            <dt>Flutter×FastAPI WAV2MIDI</dt>
+            <dd>※こちらはまだ未完成となります。Kivyで制作したWAV2MIDIをFlutter版にリメイクしている最中のもので、Cloud RunにデプロイしているFastAPIサーバにFormDataのリクエストを送ることで実現するつもりでいます。サーバーサイド(FastAPIサイド)は動作確認ができており、Flutter側でHTTPクライアントや音声再生処理に苦戦中です。</dd>
+            <dd><a href="https://github.com/O01o/flutter_hanauta", style="color: blue;">Github Source</a></dd>
+          </dl>
+          <p class="price">Dart, Flutter</p>
+        </li>
+        <li>
           <img src="./images/index/flutter_shader_sample.png" alt="ホットドッグ - チリの商品画像">
           <dl>
             <dt>Shader on Flutter</dt>
@@ -150,7 +159,7 @@
           <img class="image" src="./images/language/c-sharp.svg" alt="">
           <dl>
             <dt>C#</dt>
-            <dd>オブジェクト指向の基本となる言語の一つであり、Unityや.NET MAUI等の開発ツールにも活用されているため、需要は大きいです。しかしながら、その多層構造なVMによるビルドの所要時間や、Visual Studioでの開発を強いられること、また、近年2Dゲーム開発は他のエンジンも優秀になってきているため、Dart等の他の言語への移行を検討しています。</dd>
+            <dd>オブジェクト指向の基本となる言語の一つであり、Unityや.NET MAUI等の開発ツールにも活用されています。公式文献がやや読みにくさを感じたため、Visual C# 2022逆引き大全を購入して勉強しています。</dd>
           </dl>
           <p class="price">☆☆☆</p>
         </li>
@@ -182,7 +191,7 @@
           <img class="image" src="./images/language/c.svg" alt="">
           <dl>
             <dt>C</dt>
-            <dd>授業にて扱いました。初めてのプログラミングで活用した言語でありますが、現状は他の言語での開発に勤しんでいます。</dd>
+            <dd>授業にて扱いました。初めてのプログラミングで活用した言語でありますが、現状は他の言語での開発に勤しんでいます。初めての開発ではVisual StudioとDxLib.hを使用してゲーム開発を行なっていました。しかし挫折しました。</dd>
           </dl>
           <p class="price">☆☆</p>
         </li>
@@ -190,7 +199,7 @@
           <img class="image" src="./images/language/java.svg" alt="">
           <dl>
             <dt>Java</dt>
-            <dd>授業にて扱いました。オブジェクト指向の礎となる言語でありますが、Cと同様にコンパイラが諸々存在している不便さや、VScodeでは扱いにくい点、(特にAndroid開発において)バージョンの整備の行き届いてなさ等があり、現状は他の言語での開発に勤しんでいます。</dd>
+            <dd>授業にて扱いました。オブジェクト指向の礎となる言語です。初めてAndroid開発を行った時も、このJavaを使用しましたが、現在はKotlinやDartでの開発が主流であると見込んでいます。</dd>
           </dl>
           <p class="price">☆☆</p>
         </li>
@@ -198,7 +207,7 @@
           <img class="image" src="./images/language/php.svg" alt="">
           <dl>
             <dt>PHP</dt>
-            <dd>授業にて扱いました。HTMLにインターリーブできることが魅力でありますが、かえってそれが不便と化す場合もある他、Laravelを扱う際に動的型付けが不便になったり、その他記法に独特のクセが見られる等、個人的に開発体験はあまりよくありませんでした。</dd>
+            <dd>授業にて扱いました。HTMLにインターリーブできることが魅力でありますが、基本的にはLaravelのための言語という印象が強いです。</dd>
           </dl>
           <p class="price">☆☆</p>
         </li>
@@ -242,7 +251,7 @@
           <img class="image" src="./images/language/unity.svg" alt="">
           <dl>
             <dt>Unity (C#)</dt>
-            <dd>優秀な3Dレンダリングエンジンと共にGUIを使った開発ができる意味で、大変魅力的なツールではありますが、その処理の重さと検証の不便さが目立ち、現在は開発を断念しています。今後の2Dゲームの開発にはFlutter FlameやHaxeFlixelを選定予定ですが、XRを含めた3Dコンテンツの制作にはUnityが必要不可欠であり、今後も需要は考えられそうです。</dd>
+            <dd>主に3DCGやVR/ARにおいて素晴らしいレンダリングエンジンを提供しており、コライダーやプレハブ等の開発体験を上げるツールも豊富です。その他プラグインも豊富であり、私は特にWwiseと呼ばれるオーディオミドルウェアに注目しております。ただし2Dゲーム開発はFlutter FlameやHaxeFlixel等の他のフレームワークを検討しています。</dd>
           </dl>
           <p class="price">☆☆</p>
         </li>
@@ -250,7 +259,7 @@
           <img class="image" src="./images/language/dotnet.svg" alt="">
           <dl>
             <dt>.NET MAUI (C#)</dt>
-            <dd>Flutterに対抗したデスクトップまたはモバイル用のクロスプラットフォームな位置づけになります。C# Markupと組み合わせることで、よりFlutterライクなデザイン設計が可能となりますが、少なくともモバイル開発における機能面としてはFlutterに劣るものが感じられる他、デスクトップ開発においても、最近はFlutterでFirebaseと連携可能であるため(非公式)、現在は開発を断念しています。</dd>
+            <dd>Flutterに対抗したデスクトップまたはモバイル用のクロスプラットフォームな位置づけになります。C# Markupと組み合わせることで、よりデザイン設計が容易になります。また、Visual C# 2022 逆引き大全でも.NET MAUIが紹介されており、参入障壁は下がることが想定されます。現在はFlutter Desktopと技術選定を比較中です。</dd>
           </dl>
           <p class="price">☆☆</p>
         </li>
@@ -258,7 +267,7 @@
           <img class="image" src="./images/language/laravel.svg" alt="">
           <dl>
             <dt>Laravel (PHP)</dt>
-            <dd>授業にて扱いました。SQLと密接したWebバックエンドフレームワークの一つであり、現在最も人気が高いです。MVCによるソフトウェア制御が洗練されていますが、PHPの動的型付けな言語の性質により、オブジェクト指向を適用した場合に変数の参照関係が不明になる点があり、個人的な所感ではりますが、総合的な開発体験としてはあまり良いものとは感じられませんでした。</dd>
+            <dd>授業にて扱いました。SQLと密接したWebバックエンドフレームワークの一つであり、MVCが採用されています。バックエンドでは非常に人気の高いツールです。私はLaravel/uiを利用して開発を行いましたが、PHP 8.0では非推奨になっていることや、フロントエンドと分割した方が一枚岩になりにくい点もあり、現在は開発スタンスを見直し中です。</dd>
           </dl>
           <p class="price">☆☆☆</p>
         </li>
