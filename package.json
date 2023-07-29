@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://o01o.githu.io",
+  "homepage": "https://o01o.github.io",
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
