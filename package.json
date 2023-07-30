@@ -13,9 +13,15 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "@smui/button": "^7.0.0-beta.14",
+    "@smui/card": "^7.0.0-beta.14",
+    "@smui/icon-button": "^7.0.0-beta.14",
+    "@smui/layout-grid": "^7.0.0-beta.14",
     "@sveltejs/vite-plugin-svelte": "^2.4.3",
     "@tsconfig/svelte": "^4.0.1",
     "gh-pages": "^5.0.0",
+    "prisma": "^5.0.0",
+    "smui-theme": "^7.0.0-beta.14",
     "svelte": "^3.58.0",
     "svelte-check": "^3.3.1",
     "svelte-material-ui": "^7.0.0-beta.14",
@@ -23,5 +29,8 @@
     "tslib": "^2.5.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0"
   }
 }
