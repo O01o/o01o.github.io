@@ -6,19 +6,26 @@
     export let name;
     export let stars;
     export let details;
+    export let imagePath;
 </script>
 
 <style>
     .card-container {
         margin: 0px;
-        max-width: 400px;
+    }
+    img {
+        height: 200px;
     }
 </style>
 
 <main>
     <div class="card-container">
         <Card padded>
-            <Media class="card-media-16x9" aspectRatio="16x9" />
+            <Media class="card-media-16x9" aspectRatio="16x9">
+                <MediaContent>
+                    <img src={imagePath} alt="">
+                </MediaContent>
+            </Media>
             <Content class="mdc-typography--body2">
                 <h2 class="mdc-typography--headline6" style="margin: 0;">{name}</h2>
                 {#each Array({stars}) as _unused, i}

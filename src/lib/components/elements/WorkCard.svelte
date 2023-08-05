@@ -6,13 +6,13 @@
     export let title;
     export let skills;
     export let details;
-    export let githubLink;
+    export let imagePath;
+    export let githubURL;
 </script>
 
 <style>
     .card-container {
         margin: 0px;
-        max-width: 400px;
     }
 </style>
 
@@ -27,7 +27,7 @@
             </Content>
             <Actions>
                 <ActionButtons>
-                    <Button href="{githubLink}">
+                    <Button href="{githubURL}">
                         <Label>Github Code</Label>
                     </Button>
                 </ActionButtons>
